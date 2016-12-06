@@ -2,10 +2,10 @@ import javafx.scene.control.Skin;
 import javafx.scene.control.SkinBase;
 
 public class CustomControlSkin extends SkinBase<CustomControl> implements Skin<CustomControl> {
-	
-	public CustomControlSkin(CustomControl cc) {
-		// call the super class constructor super(cc);
+
+	protected CustomControlSkin(CustomControl cc) {
 		super(cc);
+		// TODO Auto-generated constructor stub
 	}
 
 }
